@@ -65,5 +65,5 @@ done
 
 
 #echo $cp
-java -Xmx16054m -Xms512m -XX:SurvivorRatio=10 -XX:+AggressiveOpts -classpath $cp cgl.imr.worker.TwisterDaemon $1 $2 $3
+java -Xmx10698m -Xms512m -XX:SurvivorRatio=10 -XX:+AggressiveOpts -classpath $cp cgl.imr.worker.TwisterDaemon $1 $2 $3
 
